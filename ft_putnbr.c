@@ -37,7 +37,7 @@ static int	recursive_print(long n)
 
 int	ft_putnbr(long nbr)
 {
-	int		count;
+	int	count;
 
 	count = 0;
 	if (nbr < 0)

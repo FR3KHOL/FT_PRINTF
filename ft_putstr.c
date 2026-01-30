@@ -14,7 +14,7 @@
 
 int	ft_putstr(char *str)
 {
-	int		pos;
+	int	pos;
 
 	pos = 0;
 	if (!str)

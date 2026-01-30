@@ -14,7 +14,7 @@
 
 int	ft_putunsigned(unsigned int nbr)
 {
-	int		written;
+	int	written;
 
 	written = 0;
 	if (nbr > 9)

@@ -6,7 +6,7 @@
 /*   By: hilyas <hilyas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 14:51:59 by hilyas            #+#    #+#             */
-/*   Updated: 2026/01/20 22:20:18 by hilyas           ###   ########.fr       */
+/*   Updated: 2026/01/29 17:16:19 by hilyas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,12 @@ int	ft_putadress(unsigned long point)
 {
 	int	result;
 
-	result = write(1, "0x", 2);
 	if (point == 0)
-		result += write(1, "0", 1);
+		return (write(1, "(nil)", 5));
 	else
+	{
+		result = write(1, "0x", 2);
 		result += recursive_hex(point);
+	}
 	return (result);
 }
