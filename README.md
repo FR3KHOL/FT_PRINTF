@@ -110,13 +110,10 @@ This design was chosen for its simplicity, clarity, and adherence to the origina
 
 AI assistance was used in the following aspects of this project:
 
-1. **Code Refactoring**: To create alternative implementations of functions while maintaining identical behavior, helping to understand different approaches to solving the same problem.
+1. **Conceptual Understanding**: To clarify the behavior of variadic functions (`va_list`, `va_start`) and the stack memory layout required for accessing arguments.
 
-2. **Documentation**: For structuring and formatting the README file according to 42 standards.
+2. **Test Case Generation**: To generate stress tests and edge cases (such as trailing percent signs and NULL pointers) to verify the robustness of the implementation against the standard `printf`.
 
-3. **Makefile Optimization**: For suggesting improvements to the build system while maintaining compatibility with project requirements.
-
-All core algorithmic decisions, logic implementation, and final code validation were performed by the student. The AI served as a tool for exploring alternative implementations and improving documentation clarity.
 
 ## Project Structure
 
